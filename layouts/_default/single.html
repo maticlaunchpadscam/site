@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}" class="{{ .Site.Params.theme }}">
+  {{- partial "head.html" . -}}
+  <body
+    class="max-w-screen-xl mx-auto prose pb-3 dark:prose-dark bg-gray-100 dark:bg-dark1 duration-250"
+  >
+    <main class="flex sm:flex-row-reverse flex-row flex-wrap">
+      <section
+        class="w-full sm:w-2/5 bg-gray-200 dark:bg-dark2 rounded shadow flex flex-col justify-between"
+      >
+        <div>
+          {{- partial "header.html" . -}}
+          {{ partial "name.html" . }}
+          {{ partial "profilePhoto" . }}
+          {{ partial "social.html" . }}
+          {{ partial "aboutDesc" . }}
+          {{ partial "language.html" . }}
+          {{ partial "hobby.html" . }}
+        </div>
+        {{- partial "footer.html" . -}}
+      </section>
+
+      <section class="w-full sm:w-3/5 px-3 p-3">
+        <a href="/">Back</a>
+        <h1 class="my-10">{{ .Params.title }}</h1>
+        {{ .Content }}
+      </section>
+    </main>
+  </body>
+</html>

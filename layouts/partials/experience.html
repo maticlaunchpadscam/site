@@ -1,0 +1,15 @@
+<div class="mb-8">
+  <h2 class="mt-8 sm:mt-0">
+    {{ .Site.Params.experiences.title }}
+  </h2>
+
+  {{ range.Site.Params.accusations.list }}
+  <h3 class="mb-1">{{ .accuser }} {{ if .dates }}<span>&middot; {{ .dates | markdownify }}</span>{{end}}</h3>
+  <p class="ml-2 mb-0">{{ .details | markdownify }}</p>
+  {{ if .link }}
+  <p class="ml-1 mb-0">
+    <a class="font-semibold" href="{{ .link }}">Read more</a>  
+  </p>
+  {{ end }}
+  {{ end }}
+</div>

@@ -1,0 +1,168 @@
+baseURL = "http://maticlaunchadscam.com/"
+languageCode = "en-us"
+disableKinds = ["taxonomy"]
+
+[build]
+    writeStats = true
+
+[params]
+    title = "Matic Launchpad SCAM"
+    author = "Scam busters"
+    description = "About this website"
+    copyright = "Have you been a victim of Matic Launchpad's alleged scams or do you have information that could help us shed light on their practices? Please share your story or tips with us at maticlaunchpadscam@proton.me.\n\nYour confidentiality is assured."
+    theme = "dark" # `dark` or `light`
+
+    # Profile section
+    [params.profile]
+        name = "Matic Launchpad"
+        title = "is a SCAM?"
+        photo = "images/maticlaunchpad.jpg"
+
+    # Section for links to social websites
+    # [params.social]
+    #     title = "Links"
+
+    #     [[params.social.list]]
+    #     icon = "fab fa-linkedin-in"
+    #     url = "#"
+    #     title = "LinkedIn"
+
+    #     [[params.social.list]]
+    #     icon = "fab fa-github"
+    #     url = "#"
+    #     title = "GitHub"
+		
+	# 	[[params.social.list]]
+    #     icon = "ai ai-google-scholar"
+    #     url = "#"
+    #     title = "Google Scholar"
+		
+	# 	[[params.social.list]]
+    #     icon = "ai ai-researchgate"
+    #     url = "#"
+    #     title = "ResearchGate"		
+
+    # Education section
+    # [params.education]
+    #     title = "Education"
+
+    #     [[params.education.list]]
+    #     degree = "Masters in Degree 1"
+    #     college = "University Number 1"
+    #     dates = "2016 - 2018"
+    #     thesis_title = "Title of the dissertation"
+    #     thesis_link = "#"
+
+    #     [[params.education.list]]
+    #     degree = "Bachelors in Degree 2"
+    #     college = "University Number 2"
+    #     dates = "2010 - 2014"
+
+    # Languages section
+    # [params.language]
+    #     title = "Languages"
+
+    #     [[params.language.list]]
+    #     language = "English"
+    #     level = "Fluent"
+				
+    #     [[params.language.list]]
+    #     language = "Bird"
+    #     level = "Basic"
+
+    # Interests section
+    # [params.hobbies]
+    #     title = "Hobbies"
+
+    #     [[params.hobbies.list]]
+    #     interest = "Travelling"
+		
+	# 	[[params.hobbies.list]]
+    #     interest = "Music"
+
+    #     [[params.hobbies.list]]
+    #     interest = "Flying"
+
+    #     [[params.hobbies.list]]
+    #     interest = "Baking"
+
+    [params.aboutme]
+        description = "Following a multitude of independent allegations from various parties accusing Matic Launchpad of perpetrating scams against projects conducting IDOs on their platform, as well as engaging in detrimental token dumping practices, we have initiated an investigation.\n\nThis website serves as a repository for aggregating information, complaints, and accusations against Matic Launchpad, with the aim of providing substantiated evidence for individuals and entities seeking to take action against Matic Launchpad and its principals. [Read more](/why-is-matic-launchpad-a-scam/)."
+
+    # Experiences section
+    [params.experiences]
+        title = "Accusations against Matic Launchpad"
+
+        [[params.accusations.list]]
+        accuser = "Mogul productions"
+        dates = "2024"
+        details="Accuses Matic Launchpad of breaching their IDO agreement by prematurely selling millions of $MOGUL tokens, an act commonly referred to as \"token dumping.\" This action allegedly removed liquidity from the market for their own benefit. Additionally, Matic Launchpad is accused of withholding the funds raised during the IDO, despite having received fees for hosting the event."
+		link = "https://www.mogulproductions.com/post/matic-and-gamelauncher-launchpads-undermined-mogul-token-launch-by-selling-tokens-in-breach-of-ido-agreement/"
+
+        # [[params.accusations.list]]
+        # accuser = "fand dak"
+        # dates = "2024"
+        # details="Accuses Matic Launchpad of having their staking page closed for 3 years."
+		# link = "https://x.com/fandak707/status/1773103126389661797"
+
+        # [[params.accusations.list]]
+        # accuser = "Alexandru Axentii"
+        # dates = "2024"
+        # details="Accuses Matic Launchpad being a scam"
+		# link = "https://x.com/AlexandruAxent5/status/1763697782978715974"
+
+        # [[params.accusations.list]]
+        # accuser = "Schorse"
+        # dates = "2023"
+        # details="Warns that Matic Launchpad V2 is a scam, just like the previous version (V1). After the \"V2-IDO\" and \"Token-Swap V1->V2\", the team behind Matic Launchpad promised to distribute the 1:1 conversion in batches. However, only the first batch was distributed, and 1.5 months later, there has been no second batch, suggesting that the team has abandoned their promises and is likely running a scam."
+		# link = "https://x.com/Schorse9/status/1730960233122435090"
+        
+        [[params.accusations.list]]
+        accuser = "Metacraft.pro"
+        dates = "2022"
+        details="Accuses Matic Launchpad of mishandling the IDO for the Metacraft project. It alleges that Matic Launchpad was involved in activities such as token dumping, poor transparency, and failing to adequately support the project during the IDO process. These actions reportedly led to significant financial losses for participants and raised concerns about the platform's integrity."
+		link = "https://mumubit.medium.com/ido-incidents-on-metacraft-pro-project-af310abdb00c"
+        
+
+        [[params.accusations.list]]
+        accuser = "Adrian Vulea"
+        dates = "2021"
+		details = "Labeled Matic Launchpad as a scam, highlighting several red flags such as non-functional website features, misleading claims about partnerships, and suspicious whitelist acceptance processes."
+        link = "https://adrian-vulea.medium.com/matic-launchpad-is-a-scam-55c4cc08b39b"
+
+        [[params.accusations.list]]
+        accuser = "We are currently investigating more information, claims and accusasations and will update this page frequently."
+        #dates = "2021"
+		#details = "Labeled Matic Launchpad as a scam, highlighting several red flags such as non-functional website features, misleading claims about partnerships, and suspicious whitelist acceptance processes."
+        #link = "https://adrian-vulea.medium.com/matic-launchpad-is-a-scam-55c4cc08b39b"
+        
+
+    # Projects section
+    # [params.projects]
+    #     title = "Projects"
+
+    #     [[params.projects.list]]
+    #     title = "Awesome Project 1"
+    #     url = "#"
+    #     description = "Description of the *awesome* project 1"
+		
+	# 	[[params.projects.list]]
+    #     title = "Awesome Project 2"
+    #     url = "#"
+    #     description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    # Skills section
+    # [params.skills]
+    #     title = "Skills"
+
+    #     [[params.skills.list]]
+    #     skill = "Skill 1, Skill 2"
+    #     skillrating = 95 # out of 100
+                
+    #     [[params.skills.list]]
+    #     skill = "Skill 3"
+    #     skillrating = 90
+		
+    #     [[params.skills.list]]
+    #     skill = "Skill 4"
+    #     skillrating = 80
